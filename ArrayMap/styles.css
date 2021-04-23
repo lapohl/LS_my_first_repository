@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family:'Courier New', Courier, monospace
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+#info {
+  display: grid;
+  grid-row: 1fr;
+}
+
+#info div {
+  padding: .75rem;
+  background: rgba(0, 200, 167, 0.387);
+  margin: .75rem;
+  border-radius: 20px;
+  color:rgb(0,0,0);
+  font-size: 1.rem;
+  text-align: center;
+}
